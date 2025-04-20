@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // API endpoint - this should be configured in a production environment
     // You can also set this dynamically using a <meta> tag in your HTML
-    let API_URL = 'https://xayitovb.github.io/jss//api/send';
+    let API_URL = 'https://xayitovb.github.io/jss/api/send';
     const apiUrlMeta = document.querySelector('meta[name="api-url"]');
     if (apiUrlMeta) {
         API_URL = apiUrlMeta.getAttribute('content');
